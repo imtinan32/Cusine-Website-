@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-parent-div-of-all{
+width:90%;
+margin:auto
+}
+header {
+    background-image: url(./img/bg-hero.jpg);
+    background-size: cover;
+    position: relative;
+    height: 99.9vh;
+
+}
+.header-section-items{
+    position: absolute;
+    background-color: #202432;
+    opacity: 0.9;
+}
+
+.header-item{
+    display: flex;   
+    margin: 10px 10px;
+
+}
+ .header-option {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    margin-left:40%;
+    align-items: center;
+}
+.header-option li{
+    display:inline-block;
+    margin-left: 12px;
+    
+}
+.header-option a{
+    color:#ffffff ;
+    text-decoration: none;
+}
+.header-option a:hover{
+    color: #eea01e;
+}
+
+.header-option-btn button{
+    margin-left: 12px;
+    color:#ffffff;
+    background-color: #eea01e;
+    padding: 5px;
+    cursor: pointer;
+}
+.header-icon,.restoran-titel{
+    color:#eea01e;
+    font-size: 32px;
+    margin: 10px 10px;
+}
+
+.header-contnet-position{
+    width:95%;
+    display:flex;
+    height:88.8vh;
+}
+.header-content-left{
+    width:55%;
+    height: auto;
+    padding-top: 55px;
+    padding-left: 25px;
+    
+}
+.header-content-left-items-heading{
+    font-size: 89px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.header-content-left-items-data{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.header-content-left-items-btn button{
+    color:#ffffff;
+    background-color: #eea01e;
+    padding: 10px;
+    margin-top: 16px;
+    text-align: center;
+    cursor: pointer;}
+
+.header-content-right {
+    /* padding-left: 290px; */
+
+    padding-top: 10px;
+    width:55%;
+    height: auto;
+   
+}
+.header-content-right img{
+    margin-left:150px;
+    width:75%;
+    animation: spin 55s  infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform:rotate(360deg); 
+    }
+  }
+
+  /* main section-1-services-start */
+  
+  .main-section-items-list{
+    display: flex;
+    padding: 25px;
+    font-size: 18px;
+}
+.main-section-items-list-data-id{
+    padding: 18px;
+    margin: 18px;
+    box-shadow: 0 0 45px #e3e6f1;
+}
+.main-section-items-list-data-icon{
+    font-size: 28px;
+    color: #eea01e;
+}
+.main-section-items-list-data-heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+.main-section-items-list-data-icon:hover i{
+    color:#ffffff;
+}
+.main-section-items-list-data-id:hover {
+    color:#ffffff;
+    background-color: #eea01e;
+}
+.main-section-position-abouts{
+    display: flex;
+}
+.main-section-position-abouts-left{
+    width:45%;
+}
+.main-section-position-img-left-upper{
+    display: flex;
+   
+}
+.about-posittion-img-left-upper-id-left img{
+    width: 95%;
+}
+.about-posittion-img-left-upper-id-right img{
+  margin: 250%;
+
+}
+.main-section-position-img-left-down{
+    display: flex;
+}
+.about-posittion-img-left-down-id-left img{
+    width:200px;
+    height:190px;
+    margin-right: 10px;
+    margin-left: 39px;
+}
+.about-posittion-img-dwon-id-right img{
+    width: 95%;
+    
+}
+
+
+/* section new */
+.main-section-position-abouts-right{
+    width: 55%;
+    padding-top:10%;
+}
+.main-section-position-abouts-right-content-heading p{
+    color:#eea01e;
+}
+.main-section-position-abouts-right-content-mainheading{
+    font-size: 32px;
+    font-weight: 700;
+}
+.main-section-position-abouts-right-contentdata p{
+    padding-top: 18px;
+}
+.main-section-position-abouts-right-content-pularity{
+    display: flex;
+    justify-content:space-between;
+    padding: 18px;
+    padding-left: 0;
+}
+.year{
+    display: flex;
+    padding: 15px;
+    border-left:5px solid #eea01e;
+}
+.year-no{
+    font-size: 32px;
+    font-weight: 800;
+    padding-right: 18px;
+    color: #eea01e;
+}
+.popular-chef{
+    display: flex;
+    padding: 15px;
+    border-left:5px solid #eea01e;
+}
+.main-section-position-abouts-right-content-button button{
+    color:#ffffff;
+    background-color: #eea01e;
+    font-size: 13px;
+    padding: 12px;
+    cursor: pointer;
+}
+/* <!--main section-2-about-end--> */
+
+.menusection-design{
+    text-align: center;
+    padding-top:4%;
+    font-size: 25px;
+}
+.menu-section-heading{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.menu-item-icon{
+    color: #eea01e;
+    font-size:32px;
+    padding: 10px;   
+}
+.menu-section-items{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 18px;
+    cursor: pointer;
+}
+.menu-section-item-direction{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 25px;
+}
+.menu-section-item-left{
+    display: flex;
+    width: 49%;
+    align-items: center;
+}
+.menu-section-item-right{
+    width:49%;
+    display: flex;
+    align-items: center;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+}
+.bottem{
+    padding:10px;
+}
+.reservation-section-direction{
+    display: flex;
+    height:70vh;
+}
+.reservation-section-left-img{
+    width:48%;
+    
+}
+.reservation-section-left-img img{
+    width:100%;
+    height:70vh;
+    object-fit: cover;
+} 
+.reservation-section-right-form{
+    width: 48%;
+    padding:32px;
+    background-color: #202432;
+}
+.reservation-design{
+    color:#eea01e;
+    font-size: 32px;
+    padding: 5px;
+}
+.reservation-heading{
+    color:#e3e6f1;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 18px;
+}
+.reservation-form input,.name-and-email,.Date-selection,textarea{
+    display: flex;
+}
+.name-and-email{
+    width: 100%;
+    margin-top: 12px;   
+}
+.name,
+.email
+{
+    width: 48%;
+    margin: auto;
+    /* padding: 32px; */
+}
+
+.name input, .email input{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.Date-selection{
+    width: 100%;
+    margin-top: 12px; 
+}
+.date , .selector{
+    width: 48%;
+    margin: auto;
+}
+.date input, select{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.text-area{
+    width: 98%;
+    
+    margin: auto;
+    margin-top: 12px; 
+}
+
+.text-area textarea{
+    width: 100%;
+    padding: 32px 0;
+}
+
+.reservation-section-right-form button{
+    margin-top: 12px;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #eea01e;
+    color: #e3e6f1;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* <!--section-Our-client-start--> */
+.section-our-client-say{
+    width:100%;
+    padding-top: 55px;
+}
+.client-design{
+    color: #eea01e;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.client-heading{
+    color: #202432;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.client-card-flex{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.client-card-id{
+    width: 30%;
+    box-shadow: 0 0 45px #e3e6f1;
+    padding: 10px;
+    padding-bottom: 2px;
+}
+.client-card-id:hover{
+    color: #e3e6f1;
+    background-color: #eea01e;
+}
+
+.client-icon-card{
+    color:#eea01e;
+    font-size: 32px;
+}
+.client-card-profession{
+    display: flex;
+}
+.client-icon-card:hover{
+    color:#e3e6f1;
+}
+.client-card-profession img{
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+}
+.cname{
+    font-size: 18px;
+    font-weight: 800;
+}
+.card-nm-pfsn{
+    margin: auto 0;
+}
+
+/* <!--section-Our-client-end--> */
+/* /* <!--Section circle-start--> */
+
+.cricel-list{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+.circle-div-list{
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border:1px solid #202432;
+    margin: 5px;
+}
+
+.circle-div-list:hover{
+    background-color: #eea01e;
+}
+
+/* <!--Section circle-end--> */ 
+
+/* <!--footer-Section-start--> */
+
+.section-footer{
+    background-color: #202432;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 32px;
+}
+.section-footer-items-id{
+    width: 24%;
+    padding: 3%;
+}
+.section-footer-items{
+    display: flex;
+    align-items: first baseline;
+}
+.div-company-items{
+    line-height: 2;
+    font-size: 18px;
+}
+.company-heading{
+    color: #eea01e;
+    font-size: 18px;
+    font-weight: 600;
+}
+.div-contact-items {
+    display: flex;
+    padding: 16px;
+    font-size: 18px;  
+}
+.contact-heading,
+.opening-heading,
+.news-heading{
+    color: #eea01e;
+    font-size: 18px;
+    font-weight: 600;
+}
+.div-contact-items i{
+margin-right:18px;
+}
+.div-contact-items-list ul{
+    display: flex;
+    /* justify-content: center; */
+    list-style-type: none;
+}
+.div-contact-items-list li,.div-contact-items-list a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.opening-content-items{
+    padding: 16px;
+    font-size: 18px; 
+    line-height: 2;
+}
+.div-news{
+    padding: 16px 0px;
+
+    font-size: 18px;
+    /* position: relative; */
+}
+.news-btn input{
+    border-color:#eea01e;
+    width: 100%;
+    padding:6px;
+}
+.news-btn{
+    position: relative;
+}
+.news-btn button{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    color: #ffffff;
+    background-color: #eea01e;
+    padding: 2px;
+    border:none;
+}
+
+@media (max-width: 992px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-content-left {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .header-content-left-items-heading {
+        font-size: 3rem;
+    }
+
+    .header-content-right {
+        display: none;
+    }
+
+    .header-option {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-option li {
+        margin-bottom: 0.5em;
+    }
+
+    .header-option-btn {
+        align-self: flex-end;
+    }
+
+    .main-section-items-list {
+        flex-direction: column;
+        padding: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-option {
+        align-items: flex-start;
+        margin-left: 0;
+    }
+
+    .header-content-left-items-heading {
+        font-size: 2.5rem;
+    }
+
+    .header-content-left-items-btn button {
+        padding: 0.75em;
+        font-size: 1rem;
+    }
+
+    .main-section-items-list {
+        padding: 1em;
+        font-size: 1.25rem;
+    }
+
+    .main-section-items-list-data-id {
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-option {
+        align-items: flex-start;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .header-content-left-items-heading {
+        font-size: 2rem;
+    }
+
+    .main-section-items-list {
+        padding: 1em;
+        font-size: 1rem;
+    }
+
+    .header-option-btn button {
+        font-size: 0.875rem;
+        padding: 0.75em;
+    }
+}
